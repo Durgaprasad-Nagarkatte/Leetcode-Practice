@@ -24,7 +24,7 @@ public class IntegerToRoman {
                 num -= 10;
             }else if(num < 50){
                 builder.append("XL");
-                num -= 50;
+                num -= 40;
             }else if(num < 90){
                 builder.append("L");
                 num -= 50;
