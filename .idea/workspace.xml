@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8511890-ad71-4967-88bc-60ea5cefcd47" name="Default Changelist" comment="" />
+    <list default="true" id="e8511890-ad71-4967-88bc-60ea5cefcd47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/problem/string/IntegerToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/problem/string/LongestSubstringWithoutRepeatingCharacters3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/problem/string/LongestSubstring11.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +33,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1n2mwNpHIC67niDDoKOWcAa8IcV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,7 +46,33 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.IntegerToRoman">
+    <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.problem.string.IntegerToRoman" />
+      <module name="Leetcode-Practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.problem.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubstringWithoutRepeatingCharacters3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.problem.string.LongestSubstringWithoutRepeatingCharacters3" />
+      <module name="Leetcode-Practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.problem.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZigZagConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.problem.string.ZigZagConversion" />
       <module name="Leetcode-Practice.main" />
@@ -44,6 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegerToRoman" />
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters3" />
         <item itemvalue="Application.ZigZagConversion" />
       </list>
     </recent_temporary>
@@ -62,38 +108,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1487" height="219" key="GridCell.Tab.0.bottom" timestamp="1610615138633">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1617682916873">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1617682916873" />
+    <state width="1487" height="272" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1610638920222" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1617682916872">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1617682916872" />
+    <state width="1487" height="272" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1610638920221" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1617682916872">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1617682916872" />
+    <state width="1487" height="272" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1610638920221" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1617682916872">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1617682916872" />
+    <state width="1487" height="272" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1610638920221" />
+    <state width="1487" height="272" key="GridCell.Tab.1.bottom" timestamp="1610638920222">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="219" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1610615138633" />
-    <state width="1487" height="219" key="GridCell.Tab.0.center" timestamp="1610615138633">
+    <state width="1487" height="272" key="GridCell.Tab.1.bottom/67.27.1533.873@67.27.1533.873" timestamp="1610638920222" />
+    <state width="1487" height="272" key="GridCell.Tab.1.center" timestamp="1610638920222">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="219" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1610615138633" />
-    <state width="1487" height="219" key="GridCell.Tab.0.left" timestamp="1610615138632">
+    <state width="1487" height="272" key="GridCell.Tab.1.center/67.27.1533.873@67.27.1533.873" timestamp="1610638920222" />
+    <state width="1487" height="272" key="GridCell.Tab.1.left" timestamp="1610638920222">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="219" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1610615138632" />
-    <state width="1487" height="219" key="GridCell.Tab.0.right" timestamp="1610615138633">
+    <state width="1487" height="272" key="GridCell.Tab.1.left/67.27.1533.873@67.27.1533.873" timestamp="1610638920222" />
+    <state width="1487" height="272" key="GridCell.Tab.1.right" timestamp="1610638920222">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="219" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1610615138633" />
-    <state width="1487" height="272" key="GridCell.Tab.1.bottom" timestamp="1610615122218">
-      <screen x="67" y="27" width="1533" height="873" />
+    <state width="1487" height="272" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1610638920222" />
+    <state x="364" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1617678839252">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1487" height="272" key="GridCell.Tab.1.bottom/67.27.1533.873@67.27.1533.873" timestamp="1610615122218" />
-    <state width="1487" height="272" key="GridCell.Tab.1.center" timestamp="1610615122218">
-      <screen x="67" y="27" width="1533" height="873" />
-    </state>
-    <state width="1487" height="272" key="GridCell.Tab.1.center/67.27.1533.873@67.27.1533.873" timestamp="1610615122218" />
-    <state width="1487" height="272" key="GridCell.Tab.1.left" timestamp="1610615122218">
-      <screen x="67" y="27" width="1533" height="873" />
-    </state>
-    <state width="1487" height="272" key="GridCell.Tab.1.left/67.27.1533.873@67.27.1533.873" timestamp="1610615122218" />
-    <state width="1487" height="272" key="GridCell.Tab.1.right" timestamp="1610615122218">
-      <screen x="67" y="27" width="1533" height="873" />
-    </state>
-    <state width="1487" height="272" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1610615122218" />
+    <state x="364" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1617678839252" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
