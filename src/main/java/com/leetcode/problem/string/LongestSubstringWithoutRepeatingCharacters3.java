@@ -1,39 +1,35 @@
 package com.leetcode.problem.string;
 
-import sun.security.krb5.internal.crypto.HmacSha1Aes128CksumType;
-
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 public class LongestSubstringWithoutRepeatingCharacters3 {
-
     public int lengthOfLongestSubstring(String s) {
-        int start = 0, end = 0, max_length = Integer.MIN_VALUE;
-        Map<Character, Integer> charMap = new HashMap<>();
 
-        if(s.length() == 0 || s.length() == 1){
-            return s.length();
+        Map<Character, Integer> map = new HashMap<>();
+        int start = 0, end = 0, max_len = Integer.MIN_VALUE;
+
+        if(s.length() == 0){
+            return 0;
         }
 
+        // Iterating the string
         for(int i = 0; i < s.length(); i++){
-            if(!charMap.containsKey(s.charAt(i))){
-                charMap.put(s.charAt(i), i);
-                end = i;
-            }else {
-                start = charMap.get(s.charAt(i)) + 1;
-                end = charMap.get(s.charAt(i)) + 1;
-                charMap.put(s.charAt(i), i);
+            // Check whether the start index is lesser than the currently occurring repeating character
+            if(map.containsKey(s.charAt(i))){
+                if(start <= map.get(s.charAt(i))){
+                    start = map.get(s.charAt(i)) + 1;
+                }
             }
-            max_length = Math.max(max_length, end-start+1);
+            end++;
+            max_len = Math.max(max_len, end-start);
+            map.put(s.charAt(i), i);
         }
-
-        return max_length;
+        return max_len;
     }
 
     public static void main(String[] args){
         LongestSubstringWithoutRepeatingCharacters3 longestSubstring = new LongestSubstringWithoutRepeatingCharacters3();
-        System.out.println(longestSubstring.lengthOfLongestSubstring("abcdefg"));
+        System.out.println(longestSubstring.lengthOfLongestSubstring("pwwkew"));
     }
 }
