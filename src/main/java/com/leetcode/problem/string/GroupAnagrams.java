@@ -5,6 +5,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/*
+    TODO : Not so good solution
+ */
+
 public class GroupAnagrams {
     private Map<String, List<String>> wordMap = new HashMap<>();
 
